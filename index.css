@@ -9,11 +9,11 @@
     font-weight: bolder;
     border-radius: 10%;
     text-align: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
     margin: 10px;
-    font-size: 50px;
+    font-size: 40px;
     background-color: red;
     border: solid 5px black;
 }
@@ -50,4 +50,5 @@
 }
 .Naranja{
     background-color: rgb(245, 131, 0);
+
 }
