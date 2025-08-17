@@ -9,20 +9,20 @@
     font-weight: bolder;
     border-radius: 10%;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding: 10px;
     margin: 10px;
-    font-size: 40px;
+    font-size: 35px;
     background-color: red;
     border: solid 5px black;
 }
 
 .cronometro{
-    height: 140px;
+    height: 60px;
     font-weight: bolder;
     margin: 0 auto;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
 }
 .letraSel {
@@ -52,3 +52,4 @@
     background-color: rgb(245, 131, 0);
 
 }
+
