@@ -29,7 +29,7 @@ function iniciarCronometro() {
     if (jugadores[turnoJugador] && jugadores[turnoJugador].tiempo > 0) {
         document.querySelectorAll(".letra").forEach( (element) => element.className = `letra ${jugadores[turnoJugador].color}`)
         cronometro = setInterval(() => {
-            document.querySelector(".cronometro").textContent = jugadores[turnoJugador].tiempo;
+            document.querySelector(".cronometro").textContent = jugadores[turnoJugador].tiempo - 1;
             if (jugadores[turnoJugador].tiempo == 0) {
                 document.querySelector(".cronometro").textContent = `${jugadores[turnoJugador].color} eliminado`;
                 setTimeout(()=> {frenarCronometro();
@@ -68,4 +68,5 @@ document.querySelector(".contenedor-letras").innerHTML = renderizar;
 alfabeto.forEach((letra) => document.getElementById(letra).addEventListener("click", () => {
     seleccionar(letra)
 }));
+
 }
