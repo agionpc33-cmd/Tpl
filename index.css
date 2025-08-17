@@ -1,0 +1,53 @@
+.contenedor-letras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.letra {
+    font-weight: bolder;
+    border-radius: 10%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    background-color: red;
+    border: solid 5px black;
+}
+
+.cronometro{
+    height: 140px;
+    font-weight: bolder;
+    margin: 0 auto;
+    font-size: 70px;
+    text-align: center;
+}
+.letraSel {
+    color: white;
+    font-size: 100px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.Rojo{
+    background-color: rgba(255, 0, 0, 0.767);
+}
+.Amarillo{
+    background-color: rgb(255, 208, 0);
+}
+.Verde{
+    background-color: green;
+}
+.Azul{
+    background-color: rgb(0, 140, 255);
+}
+.Violeta{
+    background-color: purple;
+}
+.Naranja{
+    background-color: rgb(245, 131, 0);
+}
